@@ -181,6 +181,10 @@ footer {
     .image_content {
         margin-top: 150px;
     }
+    
+    .line {
+        width: 90%;   
+    }
 }
 
 @media screen and (max-width: 500px){
