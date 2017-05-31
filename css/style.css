@@ -2,6 +2,10 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400');
 @import url('https://fonts.googleapis.com/css?family=Rock+Salt');
 
+@font-face {
+    font-family: "Handwritten";
+    src: url('../fonts/WildernessTypeFace-Regular.ttf') format("truetype");
+}
 
 /* GENERAL */
 
@@ -36,7 +40,9 @@
     }
 
     .written {
-        font-family: 'Rock Salt';
+        font-family: 'Handwritten';
+        text-align: center;
+        font-size: 3em;
         width: 600px;
     }
 
