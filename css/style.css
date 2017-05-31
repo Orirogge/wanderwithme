@@ -4,7 +4,7 @@
 
 @font-face {
     font-family: "Handwritten";
-    src: url('../fonts/WildernessTypeFace-Regular.ttf') format("truetype");
+    src: url('fonts/WildernessTypeFace-Regular.ttf') format("truetype");
 }
 
 /* GENERAL */
