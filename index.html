@@ -1,42 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
+<!-- META -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="icon" 
-      type="image/png" 
-      href="img/favicon.png">
-    <title>HOME // Wander With Me</title>
-</head>
-<body>
 
+<!-- SCRIPT -->
+    <script src="js/script.js"></script>
+    <script language="JavaScript">document.oncontextmenu =new Function("return false;")</script>    
+
+<!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="icon" type="image/png" href="img/favicon.png">
+
+<!-- TITLE -->
+    <title>HOME // Wander With Me</title>
+
+
+</head>
+<body onselectstart="return false">
+
+<!-- NAVIGATION -->
     <header>
-            <ul class="desktop">
+            <ul>
                 <li id="nav_logo"><a href="index.html">WANDER WITH ME</a></li>
                 <li><a href="about.html">ABOUT</a></li>
                 <li><a href="index.html" id="nav_active">HOME</a></li>
             </ul>
     </header>
     
+<!-- IMAGE GRID -->   
     <section>
-        
             <div class="g__wrapper">
-  <div class="g__container">
-    <div class="g__row">
-        <a href="locatie.html" class="image" style="background-image:url('img/foto1.jpg');"><h1 class="image_content">LOCATIE</h1></a>
-        <a href="mauritius.html" class="image" style="background-image:url('img/foto2.jpg');"><h1 class="image_content">LOCATIE</h1></a>
-        <a href="almeria.html" class="image" style="background-image:url('img/foto3.jpg');"><h1 class="image_content">LOCATIE</h1></a>
-    </div>
-  </div>
-</div>
-        
+                <div class="g__container">
+                    <div class="g__row">
+                        <a href="mauritius.html" class="image" style="background-image:url('img/foto1.jpg');"><h1 class="image_content">MAURITIUS</h1></a>
+                        <a href="location.html" class="image" style="background-color:#eaeaea;"><h1 class="image_content">LOCATION</h1></a>
+                        <a href="almeria.html" class="image" style="background-color:#eaeaea;"><h1 class="image_content">LOCATION</h1></a>
+                    </div>
+                </div>
+            </div>  
     </section>
 
+<!-- TO TOP BUTTON-->   
+    <button onclick="topFunction()" id="top_button" title="Go to top">&#8593</button>
 
+<!-- FOOTER -->   
     <footer>
-        <p class="line">© WANDER WITH ME // Ori Roggemans</p>
+        <p class="line">© WANDER WITH ME // Design Ori Roggemans</p>
     </footer>
 
 </body>

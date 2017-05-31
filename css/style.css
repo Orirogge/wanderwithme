@@ -40,7 +40,7 @@ p a {
 }
 
 p a:hover {
-    color: black;
+    opacity: 0.5;
 }
 
 /* Nav */
@@ -68,7 +68,7 @@ li a {
 }
 
 li a:hover {
-    color: grey;
+    opacity: 0.5;
 }
 
 #nav_logo {
@@ -77,7 +77,7 @@ li a:hover {
 }
 
 #nav_active {
-    color: grey;
+    opacity: 0.5;
 }
 
 /* Grid */
@@ -162,8 +162,28 @@ footer {
 }
 
 .line {
-    border-top: 1px solid #ccc;
+    border-top: 1px solid #eaeaea;
     padding: 20px;
+    width: 90%;
+    font-size: 0.9em;
+}
+
+#top_button {
+    display: none;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    padding: 15px 18px;
+}
+
+#top_button:hover {
+    opacity: 0.5;
 }
 
 /* Media */
@@ -206,3 +226,4 @@ footer {
         width: 90%;
         }
 }
+
