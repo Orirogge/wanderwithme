@@ -29,7 +29,6 @@
         width: 600px;
         line-height: 1.4em;
         text-align: justify;
-        margin-top: 300px;
     }
 
     .name {
@@ -138,7 +137,7 @@
         position: relative;
         float: left;
         width:  920px;
-        height: 400px;
+        height: 620px;
         background-position: 50% 50%;
         background-repeat: no-repeat;
         background-size: cover;
