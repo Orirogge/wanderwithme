@@ -131,6 +131,8 @@
         background-repeat: no-repeat;
         background-size: cover;
         display: block;
+        transition: .5s ease;
+        backface-visibility: hidden;
     }
 
     .image_about {
